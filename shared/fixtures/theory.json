@@ -1,0 +1,780 @@
+{
+ "_comment": "Shared theory cases for the Python pipeline and the TypeScript frontend. Every expected value is hand-written.",
+ "tonic_names": [
+  {
+   "tonic_pc": 1,
+   "mode": "major",
+   "name": "Db"
+  },
+  {
+   "tonic_pc": 6,
+   "mode": "major",
+   "name": "F#"
+  },
+  {
+   "tonic_pc": 8,
+   "mode": "major",
+   "name": "Ab"
+  },
+  {
+   "tonic_pc": 10,
+   "mode": "major",
+   "name": "Bb"
+  },
+  {
+   "tonic_pc": 3,
+   "mode": "major",
+   "name": "Eb"
+  },
+  {
+   "tonic_pc": 6,
+   "mode": "minor",
+   "name": "F#"
+  },
+  {
+   "tonic_pc": 3,
+   "mode": "minor",
+   "name": "D#"
+  },
+  {
+   "tonic_pc": 8,
+   "mode": "minor",
+   "name": "G#"
+  },
+  {
+   "tonic_pc": 10,
+   "mode": "minor",
+   "name": "Bb"
+  },
+  {
+   "tonic_pc": 1,
+   "mode": "minor",
+   "name": "C#"
+  },
+  {
+   "tonic_pc": 10,
+   "mode": "phrygian",
+   "name": "A#"
+  },
+  {
+   "tonic_pc": 6,
+   "mode": "lydian",
+   "name": "Gb"
+  },
+  {
+   "tonic_pc": 5,
+   "mode": "locrian",
+   "name": "E#"
+  },
+  {
+   "tonic_pc": 3,
+   "mode": "dorian",
+   "name": "Eb"
+  },
+  {
+   "tonic_pc": 1,
+   "mode": "mixolydian",
+   "name": "C#"
+  },
+  {
+   "tonic_pc": 8,
+   "mode": "mixolydian",
+   "name": "Ab"
+  }
+ ],
+ "scales": [
+  {
+   "tonic_pc": 6,
+   "mode": "major",
+   "notes": [
+    "F#",
+    "G#",
+    "A#",
+    "B",
+    "C#",
+    "D#",
+    "E#"
+   ]
+  },
+  {
+   "tonic_pc": 1,
+   "mode": "major",
+   "notes": [
+    "Db",
+    "Eb",
+    "F",
+    "Gb",
+    "Ab",
+    "Bb",
+    "C"
+   ]
+  },
+  {
+   "tonic_pc": 9,
+   "mode": "harmonic_minor",
+   "notes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G#"
+   ]
+  },
+  {
+   "tonic_pc": 2,
+   "mode": "dorian",
+   "notes": [
+    "D",
+    "E",
+    "F",
+    "G",
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "tonic_pc": 4,
+   "mode": "phrygian_dominant",
+   "notes": [
+    "E",
+    "F",
+    "G#",
+    "A",
+    "B",
+    "C",
+    "D"
+   ]
+  }
+ ],
+ "spell": [
+  {
+   "pc": 2,
+   "tonic_pc": 4,
+   "mode": "major",
+   "name": "D",
+   "why": "b7 of E"
+  },
+  {
+   "pc": 7,
+   "tonic_pc": 4,
+   "mode": "major",
+   "name": "G",
+   "why": "b3 of E"
+  },
+  {
+   "pc": 3,
+   "tonic_pc": 0,
+   "mode": "major",
+   "name": "Eb",
+   "why": "b3 of C"
+  },
+  {
+   "pc": 6,
+   "tonic_pc": 0,
+   "mode": "major",
+   "name": "F#",
+   "why": "#4 of C"
+  },
+  {
+   "pc": 10,
+   "tonic_pc": 0,
+   "mode": "major",
+   "name": "Bb",
+   "why": "b7 of C"
+  },
+  {
+   "pc": 5,
+   "tonic_pc": 9,
+   "mode": "major",
+   "name": "F",
+   "why": "b6 of A"
+  },
+  {
+   "pc": 4,
+   "tonic_pc": 6,
+   "mode": "major",
+   "name": "E",
+   "why": "b7 of F#"
+  },
+  {
+   "pc": 0,
+   "tonic_pc": 6,
+   "mode": "major",
+   "name": "C",
+   "why": "#4 of F# would be B#; plain name instead"
+  },
+  {
+   "pc": 11,
+   "tonic_pc": 3,
+   "mode": "mixolydian",
+   "name": "B",
+   "why": "b6 of Eb would be Cb; plain name instead"
+  },
+  {
+   "pc": 5,
+   "tonic_pc": 6,
+   "mode": "major",
+   "name": "E#",
+   "why": "scale tone keeps its letter"
+  },
+  {
+   "pc": 8,
+   "tonic_pc": 9,
+   "mode": "minor",
+   "name": "G#",
+   "why": "raised 7th in A minor"
+  }
+ ],
+ "numerals": [
+  {
+   "semitones": 0,
+   "intervals": [
+    4,
+    3
+   ],
+   "roman": "I"
+  },
+  {
+   "semitones": 9,
+   "intervals": [
+    3,
+    4
+   ],
+   "roman": "vi"
+  },
+  {
+   "semitones": 11,
+   "intervals": [
+    3,
+    3
+   ],
+   "roman": "vii°"
+  },
+  {
+   "semitones": 7,
+   "intervals": [
+    4,
+    3,
+    3
+   ],
+   "roman": "V7"
+  },
+  {
+   "semitones": 2,
+   "intervals": [
+    3,
+    4,
+    3
+   ],
+   "roman": "ii7"
+  },
+  {
+   "semitones": 11,
+   "intervals": [
+    3,
+    3,
+    4
+   ],
+   "roman": "viiø7"
+  },
+  {
+   "semitones": 10,
+   "intervals": [
+    4,
+    3
+   ],
+   "roman": "bVII"
+  },
+  {
+   "semitones": 3,
+   "intervals": [
+    4,
+    3
+   ],
+   "roman": "bIII"
+  },
+  {
+   "semitones": 8,
+   "intervals": [
+    4,
+    3
+   ],
+   "roman": "bVI"
+  },
+  {
+   "semitones": 6,
+   "intervals": [
+    3,
+    3
+   ],
+   "roman": "#iv°"
+  },
+  {
+   "semitones": 0,
+   "intervals": [
+    4,
+    3,
+    4
+   ],
+   "roman": "Imaj7"
+  },
+  {
+   "semitones": 7,
+   "intervals": [
+    5,
+    2
+   ],
+   "roman": "Vsus4"
+  },
+  {
+   "semitones": 5,
+   "intervals": [
+    4,
+    4
+   ],
+   "roman": "IV+"
+  }
+ ],
+ "progressions": [
+  {
+   "name": "I-V-vi-IV in C",
+   "tonic_pc": 0,
+   "mode": "major",
+   "chords": [
+    {
+     "root_pc": 0,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "C",
+     "label": "I",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 7,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "G",
+     "label": "V",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 9,
+     "intervals": [
+      3,
+      4
+     ],
+     "symbol": "Am",
+     "label": "vi",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 5,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "F",
+     "label": "IV",
+     "function": "diatonic"
+    }
+   ]
+  },
+  {
+   "name": "i-bVI-bIII-bVII in A minor",
+   "tonic_pc": 9,
+   "mode": "minor",
+   "chords": [
+    {
+     "root_pc": 9,
+     "intervals": [
+      3,
+      4
+     ],
+     "symbol": "Am",
+     "label": "i",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 5,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "F",
+     "label": "bVI",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 0,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "C",
+     "label": "bIII",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 7,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "G",
+     "label": "bVII",
+     "function": "diatonic"
+    }
+   ]
+  },
+  {
+   "name": "I-bVII-IV in D Mixolydian",
+   "tonic_pc": 2,
+   "mode": "mixolydian",
+   "chords": [
+    {
+     "root_pc": 2,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "D",
+     "label": "I",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 0,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "C",
+     "label": "bVII",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 7,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "G",
+     "label": "IV",
+     "function": "diatonic"
+    }
+   ]
+  },
+  {
+   "name": "I-II-IV in F Lydian",
+   "tonic_pc": 5,
+   "mode": "lydian",
+   "chords": [
+    {
+     "root_pc": 5,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "F",
+     "label": "I",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 7,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "G",
+     "label": "II",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 10,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "Bb",
+     "label": "IV (borrowed from major)",
+     "function": "borrowed"
+    }
+   ]
+  },
+  {
+   "name": "ii-V/V-V-I in C",
+   "tonic_pc": 0,
+   "mode": "major",
+   "chords": [
+    {
+     "root_pc": 2,
+     "intervals": [
+      3,
+      4
+     ],
+     "symbol": "Dm",
+     "label": "ii",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 2,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "D",
+     "label": "V/V",
+     "function": "secondary"
+    },
+    {
+     "root_pc": 7,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "G",
+     "label": "V",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 0,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "C",
+     "label": "I",
+     "function": "diatonic"
+    }
+   ]
+  },
+  {
+   "name": "Borrowed and applied chords in C",
+   "tonic_pc": 0,
+   "mode": "major",
+   "chords": [
+    {
+     "root_pc": 5,
+     "intervals": [
+      3,
+      4
+     ],
+     "symbol": "Fm",
+     "label": "iv (borrowed from minor)",
+     "function": "borrowed"
+    },
+    {
+     "root_pc": 10,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "Bb",
+     "label": "bVII (borrowed from minor/Mixolydian/Dorian)",
+     "function": "borrowed"
+    },
+    {
+     "root_pc": 8,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "Ab",
+     "label": "bVI (borrowed from minor)",
+     "function": "borrowed"
+    },
+    {
+     "root_pc": 0,
+     "intervals": [
+      4,
+      3,
+      3
+     ],
+     "symbol": "C7",
+     "label": "V7/IV",
+     "function": "secondary"
+    },
+    {
+     "root_pc": 4,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "E",
+     "label": "V/vi",
+     "function": "secondary"
+    },
+    {
+     "root_pc": 9,
+     "intervals": [
+      4,
+      3,
+      3
+     ],
+     "symbol": "A7",
+     "label": "V7/ii",
+     "function": "secondary"
+    },
+    {
+     "root_pc": 6,
+     "intervals": [
+      3,
+      3
+     ],
+     "symbol": "F#dim",
+     "label": "vii°/V",
+     "function": "secondary"
+    },
+    {
+     "root_pc": 1,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "Db",
+     "label": "bII",
+     "function": "chromatic"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic minor in A minor",
+   "tonic_pc": 9,
+   "mode": "minor",
+   "chords": [
+    {
+     "root_pc": 4,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "E",
+     "label": "V (harmonic minor)",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 4,
+     "intervals": [
+      4,
+      3,
+      3
+     ],
+     "symbol": "E7",
+     "label": "V7 (harmonic minor)",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 8,
+     "intervals": [
+      3,
+      3
+     ],
+     "symbol": "G#dim",
+     "label": "vii° (harmonic minor)",
+     "function": "diatonic"
+    },
+    {
+     "root_pc": 2,
+     "intervals": [
+      4,
+      3
+     ],
+     "symbol": "D",
+     "label": "IV (borrowed from major)",
+     "function": "borrowed"
+    }
+   ]
+  }
+ ],
+ "slash_chords": [
+  {
+   "root_pc": 0,
+   "intervals": [
+    4,
+    3
+   ],
+   "inversion": 1,
+   "tonic_pc": 0,
+   "mode": "major",
+   "symbol": "C/E",
+   "bass_pc": 4
+  },
+  {
+   "root_pc": 7,
+   "intervals": [
+    4,
+    3,
+    3
+   ],
+   "inversion": 3,
+   "tonic_pc": 0,
+   "mode": "major",
+   "symbol": "G7/F",
+   "bass_pc": 5
+  },
+  {
+   "root_pc": 4,
+   "intervals": [
+    4,
+    3
+   ],
+   "inversion": 2,
+   "tonic_pc": 4,
+   "mode": "major",
+   "symbol": "E/B",
+   "bass_pc": 11
+  }
+ ],
+ "beat_to_seconds": [
+  {
+   "beats": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "times": [
+    10.0,
+    10.5,
+    11.0,
+    13.0
+   ],
+   "queries": [
+    [
+     0,
+     10.0
+    ],
+    [
+     0.5,
+     10.25
+    ],
+    [
+     2,
+     11.0
+    ],
+    [
+     3,
+     12.0
+    ],
+    [
+     4,
+     13.0
+    ],
+    [
+     5,
+     14.0
+    ],
+    [
+     -1,
+     9.5
+    ]
+   ]
+  }
+ ]
+}
